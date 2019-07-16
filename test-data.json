@@ -1,0 +1,35 @@
+{
+  "input": "left speaker on",
+  "intent": {
+    "intentName": "ocoras:speakerToggle",
+    "confidenceScore": 1
+  },
+  "slots": [
+    {
+      "rawValue": "left",
+      "value": {
+        "kind": "Custom",
+        "value": "left"
+      },
+      "range": {
+        "start": 0,
+        "end": 4
+      },
+      "entity": "snips/default--side",
+      "slotName": "side"
+    },
+    {
+      "rawValue": "on",
+      "value": {
+        "kind": "Custom",
+        "value": "on"
+      },
+      "range": {
+        "start": 13,
+        "end": 15
+      },
+      "entity": "snips/default--state",
+      "slotName": "state"
+    }
+  ]
+}
